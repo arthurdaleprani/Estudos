@@ -29,7 +29,7 @@ void Opcoes()
 
         case 2:
             Avaliacao avaliacao = new Avaliacao();
-            avaliacao.CalcularNota(new List<Aluno>(), new List<Materias>());
+            avaliacao.CalcularNota( Aluno.ListaAlunos, Materias.ListaMaterias);
             break;
 
 

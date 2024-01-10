@@ -4,7 +4,7 @@ namespace SistemaNotas.Modelo
     internal class Materias
     {
         public int Id{ get; set; }
-        public string nome { get; set; }
+        public string? nome { get; set; }
        
 
         public static List<Materias> ListaMaterias = new List<Materias>
@@ -20,7 +20,8 @@ namespace SistemaNotas.Modelo
 
 
       };
+       
+       
 
-      
     }
 }
