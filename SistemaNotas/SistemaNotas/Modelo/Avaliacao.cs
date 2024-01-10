@@ -1,4 +1,6 @@
 ﻿
+using SistemaNotas.Menus;
+
 
 namespace SistemaNotas.Modelo
 {
@@ -51,15 +53,54 @@ namespace SistemaNotas.Modelo
 
 
 
-                    
+
                     Console.WriteLine($"Qual a nota do aluno {alunoSelecionado.nome}, com matricula {alunoSelecionado.id} no primeiro Bimestre: ");
                     double NotaB1 = double.Parse(Console.ReadLine()!);
                     Console.WriteLine($"Qual a nota do aluno {alunoSelecionado.nome}, com matricula {alunoSelecionado.id} no Segundo Bimestre: ");
                     double NotaB2 = double.Parse(Console.ReadLine()!);
                     NotaFinal = (NotaB1 + NotaB2) / 2;
-                    Console.WriteLine($"Nota total na materia de {materiaEscolhida.nome}:{NotaFinal} " );
+                    Console.WriteLine($"Nota total na materia de {materiaEscolhida.nome}:{NotaFinal} ");
                     Console.WriteLine("Nota Cadastrada com sucesso");
-                }
+                    if (NotaFinal > 6)
+                    {
+
+                        Console.WriteLine($"{alunoSelecionado.nome} passou nesta materia!");
+
+                    }
+                    else
+                    {
+
+                        Console.WriteLine($"{alunoSelecionado.nome} reprovou nesta materia!");
+
+
+                    }
+
+
+                    Console.WriteLine("Gostaria de dar nota outro aluno? ");
+                    Console.WriteLine("1: SIM ");
+                    Console.WriteLine("2: Voltar a Menu ");
+                    string? opcaoProfessor = Console.ReadLine()!;
+                    int opcaoEscolhidaProfessor = int.Parse(opcaoProfessor);
+                    switch (opcaoEscolhidaProfessor)
+                    {
+                        case 1:
+                            Avaliacao avaliacao = new Avaliacao();
+                            avaliacao.CalcularNota(Aluno.ListaAlunos, Materias.ListaMaterias);
+                            break;
+
+                        case 2: MenuPrincipal principal = new MenuPrincipal();
+                            break;
+
+                        default:
+                            Console.WriteLine("Opção inválida.");
+                            break;
+
+
+                    }
+                        
+
+                    }
+
 
 
 
@@ -82,6 +123,15 @@ namespace SistemaNotas.Modelo
 
 
         }
-    }
+  
+    
+  
+    
+    
+    
+  }
+
+
+
 }
 
