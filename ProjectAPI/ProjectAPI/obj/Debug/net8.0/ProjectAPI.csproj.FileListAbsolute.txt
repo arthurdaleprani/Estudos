@@ -1,0 +1,14 @@
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\bin\Debug\net8.0\ProjectAPI.exe
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\bin\Debug\net8.0\ProjectAPI.deps.json
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\bin\Debug\net8.0\ProjectAPI.runtimeconfig.json
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\bin\Debug\net8.0\ProjectAPI.dll
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\bin\Debug\net8.0\ProjectAPI.pdb
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\obj\Debug\net8.0\ProjectAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\obj\Debug\net8.0\ProjectAPI.AssemblyInfoInputs.cache
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\obj\Debug\net8.0\ProjectAPI.AssemblyInfo.cs
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\obj\Debug\net8.0\ProjectAPI.csproj.CoreCompileInputs.cache
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\obj\Debug\net8.0\ProjectAPI.dll
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\obj\Debug\net8.0\refint\ProjectAPI.dll
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\obj\Debug\net8.0\ProjectAPI.pdb
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\obj\Debug\net8.0\ProjectAPI.genruntimeconfig.cache
+C:\Users\Proprietário\Desktop\Estudos\ProjectAPI\ProjectAPI\obj\Debug\net8.0\ref\ProjectAPI.dll
