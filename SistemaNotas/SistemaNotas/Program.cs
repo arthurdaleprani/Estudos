@@ -1,5 +1,5 @@
 ﻿using SistemaNotas.Modelo;
-
+using SistemaNotas.Menus;
 
 void TelaInical()
 {
@@ -23,8 +23,9 @@ void Opcoes()
 
     switch(opcaoEscolhidaNumerica) {
 
-        case 1: Console.WriteLine();
-                  break;
+        case 1: VisualizarNotas visualizarNotas = new VisualizarNotas();
+            visualizarNotas.VisualizarNota(Aluno.ListaAlunos, Materias.ListaMaterias);      
+            break;
 
 
         case 2:

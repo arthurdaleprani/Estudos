@@ -59,8 +59,12 @@ namespace SistemaNotas.Modelo
                     Console.WriteLine($"Qual a nota do aluno {alunoSelecionado.nome}, com matricula {alunoSelecionado.id} no Segundo Bimestre: ");
                     double NotaB2 = double.Parse(Console.ReadLine()!);
                     NotaFinal = (NotaB1 + NotaB2) / 2;
+                    alunoSelecionado.notaFinal[idMateria] = NotaFinal;
+
+
                     Console.WriteLine($"Nota total na materia de {materiaEscolhida.nome}:{NotaFinal} ");
                     Console.WriteLine("Nota Cadastrada com sucesso");
+
                     if (NotaFinal > 6)
                     {
 
@@ -101,7 +105,7 @@ namespace SistemaNotas.Modelo
 
                     }
 
-
+                
 
 
 

@@ -24,11 +24,10 @@ namespace SistemaNotas.Menus
 
             switch (opcaoEscolhidaNumerica)
             {
-
                 case 1:
-                    Console.WriteLine();
+                    VisualizarNotas visualizarNotas = new VisualizarNotas();
+                    visualizarNotas.VisualizarNota(Aluno.ListaAlunos, Materias.ListaMaterias);
                     break;
-
 
                 case 2:
                     Avaliacao avaliacao = new Avaliacao();

@@ -8,6 +8,9 @@ namespace SistemaNotas.Modelo
         public string? nome { get; set; }
         public int idade { get; set; }
 
+        public Dictionary<int, double> notaFinal { get; } = new Dictionary<int, double>();
+        
+
         public static List<Aluno> ListaAlunos = new List<Aluno>()
       {
 
